@@ -141,8 +141,8 @@ def main(input_folder, output_image_path, grid_size, resize_factor=1.0):
 # ---------------------------------------
 
 if __name__ == "__main__":
-    input_folder = r"D:\PHD BELGIUM\PROJECTS\Insects_Simulations\1_Project_CT_Scans\SAMPLES\A3_A8\recon"
-    output_image_path = r"D:\PHD BELGIUM\PROJECTS\Insects_Simulations\1_Project_CT_Scans\SAMPLES\A3_A8\recon\output_grid_bombus.png"  # Add file extension
+    input_folder = r"recon/"
+    output_image_path = r"my_output_grid.png"  # Add file extension
     grid_size = (23,23)  # Adjust grid size as needed
     resize_factor = 0.4  # Resize factor to reduce image dimensions (e.g., 0.5 for 50% size)
 
